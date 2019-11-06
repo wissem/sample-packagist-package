@@ -11,7 +11,8 @@
     ],
     "minimum-stability": "dev",
     "replace": {
-        "symfony/debug": "4.3.*"
+        "symfony/debug": "4.3.*",
+        "symfony/form": "4.4.*"
     },
     "require": {}
 }
