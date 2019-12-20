@@ -1,4 +1,4 @@
 Sample test package - not in packagist.org.
 
-foo
+foo2
 v2.1.0
