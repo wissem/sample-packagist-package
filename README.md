@@ -1,4 +1,4 @@
 Sample test package - not in packagist.org.
 
-foo3
+foo4--force
 v2.1.0
