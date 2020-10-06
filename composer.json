@@ -14,5 +14,7 @@
         "symfony/debug": "5.0.*",
         "symfony/form": "5.0.*"
     },
-    "require": {}
+    "require": {
+    "monolog/monolog": "^1.20"
+    }
 }
