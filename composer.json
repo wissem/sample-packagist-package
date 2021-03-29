@@ -22,7 +22,7 @@
      
    "drupal/core": {
         "Add startup configuration for PHP server": "https://www.drupal.org/files/issues/add_a_startup-1543858-30.patch"
-      },
+      }
     }
   }
 }
