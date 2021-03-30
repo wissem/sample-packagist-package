@@ -1,30 +1,27 @@
 {
-    "name": "wissem/sample-packagist-package",
-    "description": "Sample test package - not in packagist.org",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "wissem",
-            "email": "wissemr@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
-    "replace": {
-        "symfony/debug": "5.0.*",
-        "symfony/form": "5.0.*"
-    },
-    "require": {
-       "monolog/monolog": "^1.20"
-    },
-  "extra": {
-    "patches": {
-     
-   "drupal/core-ui": {
-        "Add startup configuration for PHP server": "https://www.drupal.org/files/issues/add_a_startup-1543858-30-ui.patch"
+   "name":"wissem/sample-packagist-package",
+   "description":"Sample test package - not in packagist.org",
+   "type":"library",
+   "license":"MIT",
+   "authors":[
+      {
+         "name":"wissem",
+         "email":"wissemr@gmail.com"
       }
-    }
-    
-    }
-  }
+   ],
+   "minimum-stability":"dev",
+   "replace":{
+      "symfony/debug":"5.0.*",
+      "symfony/form":"5.0.*"
+   },
+   "require":{
+      "monolog/monolog":"^1.20"
+   },
+   "extra":{
+      "patches":{
+         "drupal/core-ui":{
+            "Add startup configuration for PHP server":"https://www.drupal.org/files/issues/add_a_startup-1543858-30-ui.patch"
+         }
+      }
+   }
 }
