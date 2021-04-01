@@ -18,8 +18,11 @@
       "monolog/monolog":"^1.20"
    },
    "extra":{
-        "drupal/core-forms":{
+      "patches": {
+         "drupal/core-forms":{
             "Add startup configuration for PHP server":"https://www.drupal.org/files/issues/add_a_startup-1543858-30-forms-updated.patch"
          }
+       }
+        
    }
 }
